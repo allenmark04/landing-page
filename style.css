@@ -8,7 +8,7 @@ body {
     align-items: center;
     background-color: #1f2937;
     color: white;
-    padding: 10px;
+    padding: 30px;
     justify-content: space-between;
   }
   
@@ -83,7 +83,7 @@ body {
     color: white;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 24px;
     cursor: pointer;
   }
@@ -104,8 +104,9 @@ body {
   
   .info-header {
     font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 50px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    color: #1f2937;
   }
   
   .part2 img {
@@ -125,7 +126,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #f7f7f7;
-    padding: 50px;
+    padding: 200px;
     text-align: center;
   }
   
@@ -133,22 +134,29 @@ body {
     font-size: 36px;
     font-style: italic;
     margin-bottom: 20px;
+    color: #1f2937;
   }
   
   .author {
-    font-size: 24px;
+    font-size: 36px;
     font-weight: bold;
     margin-bottom: 50px;
+    color: #1f2937;
+    align-self: flex-end;
   }
   
   .part4 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 500px;
     text-align: center;
-    background-color: #333;
+    background-color: #3882f6;
     color: white;
+    margin: 200px;
   }
   
   .signup-text {
@@ -165,10 +173,11 @@ body {
   
   .part4 button {
     background-color: #3882f6;
-    color: #333;
+    color: #ffffff;
     padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+    border: 10;
+    border-color: #e5e7eb;
+    border-radius: 10px;
     font-size: 24px;
     cursor: pointer;
   }
@@ -178,8 +187,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #333;
     color: white;
     height: 50px;
+    background-color: #1f2937;
+    padding: 30px;
   }
   
+  .info-texts {
+    display: flex;
+    padding: 150px;
+    gap: 100px;
+  }
+
+  .info-containers {
+    display: flex;
+    flex-direction: column;
+  }
